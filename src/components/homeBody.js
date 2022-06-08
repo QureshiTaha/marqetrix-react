@@ -12,7 +12,7 @@ function HomeBody() {
       slidesToShow: 1,
       slidesToScroll: 1
     };
-  return (
+  return ( 
     <div className="HomeBody">
 {/* ======= Main Wrapper Start ======= */}
 <main className="main-wrapper overflow-hidden">
