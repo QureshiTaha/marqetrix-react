@@ -108,7 +108,7 @@ function Header() {
         <div className="header-bottom__row">
           <div className="header-bottom__col">
             <div className="logo">
-              <Link to="index.html" className="logo__link">
+              <Link to="/" className="logo__link">
                 <img src="assets/images/logo.png"  />
               </Link>
             </div>
@@ -117,38 +117,16 @@ function Header() {
             <div className="main-menu">
               <nav className="main-menu__nav">
                 <ul>
-                  <li className="main-menu__nav_sub list">
+                  <li className="main-menu list">
                     <Link className="animation" to="/">Home</Link>
-                    <ul className="main-menu__dropdown">
-                      <li><Link to="/about">About</Link></li>
-                      <li>
-                        <Link to="software-innovation.html">Software Company</Link>
-                      </li>
-                      <li><Link to="it-agency.html">IT Agency</Link></li>
-                      <li>
-                        <Link to="vertical-slider.html">Vertical Slider</Link>
-                      </li>
-                      <li>
-                        <Link to="it-modern.html">IT Modern</Link>
-                      </li>
-                      <li>
-                        <Link to="it-startup.html">IT Startup</Link>
-                      </li>
-                    </ul>
+
                   </li>
                   <li className="main-menu__nav_sub list">
                     <Link className="animation" to="/about">Company</Link>
                     <ul className="main-menu__dropdown">
                       <li><Link to="/about">About Us</Link></li>
                       <li>
-                        <Link to="why-chose-us.html">Why Chose Us</Link>
-                      </li>
-                      <li><Link to="faq.html">Help &amp; FAQ'S</Link></li>
-                      <li>
-                        <Link to="history.html">Our History</Link>
-                      </li>
-                      <li>
-                        <Link to="careers.html">Careers</Link>
+                      <Link to="/web-design-agency">Web Design Agency</Link>
                       </li>
                     </ul>
                   </li>
@@ -197,20 +175,9 @@ function Header() {
                       </li>
                     </ul>
                   </li>
-                  <li className="main-menu__nav_sub list">
-                    <Link className="animation" to="blog-details.html">Blogs</Link>
-                    <ul className="main-menu__dropdown">
-                      <li><Link to="grid-layout.html">Grid Layout</Link></li>
-                      <li>
-                        <Link to="list-layout.html">List Layout</Link>
-                      </li>
-                      <li>
-                        <Link to="blog-details-no-sidebar.html">No Sidebar</Link>
-                      </li>
-                      <li>
-                        <Link to="blog-details.html">Blog Details</Link>
-                      </li>
-                    </ul>
+                  <li className="main-menu list">
+                    <Link className="animation" to="/blogs">Blogs</Link>
+                    
                   </li>
                   <li className="list">
                     <Link className="animation" to="/contact">Contact</Link>
@@ -269,17 +236,11 @@ function Header() {
             <li className="list menu-item-parent menu-item-has-children">
               <Link className="animation" to="about-us.html">Company</Link>
               <ul className="main-menu__dropdown sub-menu">
-                <li><Link to="/about">About Us</Link></li>
-                <li>
-                  <Link to="why-chose-us.html">Why Chose Us</Link>
-                </li>
-                <li><Link to="faq.html">Help &amp; FAQ'S</Link></li>
-                <li>
-                  <Link to="history.html">Our History</Link>
-                </li>
-                <li>
-                  <Link to="careers.html">Careers</Link>
-                </li>
+              <Link to="Web-Design-Agency">Web Design Agency</Link>
+              <li>
+              <li><Link to="/about">About Us</Link></li>    
+              </li>
+                
               </ul>
             </li>
             <li className="list menu-item-parent menu-item-has-children">

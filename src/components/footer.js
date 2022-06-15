@@ -14,7 +14,7 @@ function Footer() {
           <div className="col-lg-3 col-md-6 mb-30">
             <div className="footer-widget">
               <div className="footer-widget__log mb-30">
-                <a href="index.html"><img src="assets/images/logo-light.png"  /></a>
+              <Link to="/"><img src="assets/images/logo-light.png"  /></Link>
               </div>
               <div className="footer-widget__text">
                 <p className="footer-widget__text_paragraph">
@@ -94,7 +94,7 @@ function Footer() {
                     <a href="team.html">Meet Our Team</a>
                   </li>
                   <li className="footer-widget__menu_list">
-                    <a href="blog-details.html">News &amp; Media</a>
+                    <Link to="/blogs">News &amp; Media</Link>
                   </li>
                   <li className="footer-widget__menu_list">
                     <a href="case-01.html">Case Studies</a>

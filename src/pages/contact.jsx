@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/header';
 import Footer from '../components/footer';
-import AboutHero from '../components/about/abouthero';
+import AboutHero from '../components/hero-breadcrumbs';
 import { Link } from "react-router-dom";
 
 export default function contact() {

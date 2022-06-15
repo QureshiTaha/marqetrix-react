@@ -6,6 +6,8 @@ import Home from './pages/home';
 import Notfound from './pages/notfound';
 import Contact from './pages/contact';
 import WhyChoseUs from './pages/whychoseus';
+import Blogs from './pages/blogs';
+import Agency from './pages/agency';
 
 import {
   BrowserRouter,
@@ -27,6 +29,8 @@ function App() {
       <Route exact path="/about" element={<About/>}/>
       <Route exact path="/contact" element={<Contact/>}/>
       <Route exact path="/why-chose-us" element={<WhyChoseUs/>}/>
+      <Route  exact path="/blogs" element={ <Blogs/> }/>
+      <Route  exact path="/web-design-agency" element={ <Agency/> }/>
       <Route  exact path="*" element={ <Notfound/> }/>
       
      
